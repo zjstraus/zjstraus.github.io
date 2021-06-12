@@ -1,0 +1,21 @@
+{% if resume.projects.size > 0 %}
+<section class="npb">
+  <h2 id="projects" class="h3 hr-bottom">
+    {{ strings.resume.projects | default:"Projects" }}
+    <span class="symbol {{ icons.projects | default:'icon-attachement' }}"></span>
+  </h2>
+  <dl class="projects">
+  {% for proj in resume.projects %}
+    <dt class="fl">{{ proj.name }}</dt>
+    <dd class="faded clearafter">
+      {% if proj.startDate.size > 0 %}
+        <p class="faded">
+          {% include components/from-to.html from=proj.startDate to=proj.endDate format=from_to_format %}
+        </p>
+      {% endif %}
+    {% include components/message.html class="note" text=proj.description alt="" %}
+    </dd>
+  {% endfor %}
+  </dl>
+</section>
+{% endif %}

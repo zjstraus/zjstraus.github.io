@@ -1,0 +1,115 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "Zach Strauss"
+  label: "Programmer"
+  picture: ""
+  email: "zach@strauss.audio"
+  phone: ""
+  website: "https://zach.strauss.audio"
+  summary: >
+    Experienced Project Engineer with a demonstrated history of working in the information technology and services industries. 
+    Past work in audio content and system design, show control, networking, and software development. Comfortable working under
+    pressure and to hard deadlines, and accustomed to the communication and interpersonal skills needed in large projects with
+    many stakeholders.
+  location:
+    city: "Las Vegas"
+    countryCode: "US"
+    region: "Nevada"
+  profiles:
+    - network: "LinkedIn"
+      username: "Zachery Strauss"
+      url: "https://www.linkedin.com/in/zach-strauss/"
+
+work:
+  - company: "Smart Monkeys, Inc"
+    position: "ISAAC Platform Specialist"
+    website: "http://isaacplatform.com"
+    startDate: "2019-03-01"
+    endDate: ""
+    summary: >
+      Support existing ISAAC Platform installations, provide pre-sales planning and advice for upcoming projects, and coordinate with 
+      technology partners for product integrations. Also support in house software development team using a modern DevOps stack including 
+      Linux, Docker, GitLab, Node.js, and Golang.
+    highlights:
+      
+  - company: "Smart Monkeys, Inc"
+    position: "Project Engineer"
+    website: "https://smart-monkeys.com"
+    startDate: "2016-08-08"
+    endDate: "2019-03-01"
+    summary: >
+      Program show control and audiovisual systems for a range of projects including museums, theme parks, casinos, and airports.
+    highlights:
+      - "Led show control programming team for Warner Brothers World Abu Dhabi"
+      - "Developed a GPS-based synchronized playback and control system for themed parades using the QSC Q-SYS platform"
+      - "Programmed show control and audio DSP systems for NFL Experience Times Square"
+
+  - company: "Three Lakes Center for the Arts"
+    position: "House/Operations Manager"
+    startDate: "2009-07-01"
+    endDate: "2013-08-01"
+    summary: Oversee and carry out day-to-day operation of movie theater/music venue, including operation and maintenance of 35mm projector, audio and lighting equipment, and operating and managing ticket and concessions sales.
+
+volunteer:
+  - organization: "Three Lakes Center for the Arts"
+    position: "Technical Director for Theater Development"
+    website: "https://tlcfa.org/"
+    startDate: "2011-05-01"
+    endDate: "2013-08-01"
+    summary: "Voting member of the Board of Directors, focusing on advising budgeting and purchasing projects"
+
+education:
+  - institution: "Michigan Technological University"
+    area: "Audio Production and Technology"
+    studyType: "Bachelor"
+    startDate: "2012-08-01"
+    endDate: "2016-06-01"
+
+skills:
+  - name: "Audio & Show Control"
+    level: "3-3"
+    keywords:
+      - "Medialon Manager"
+      - "QSC Q-Sys"
+      - "BSS Audio"
+      - "Node-RED"
+  - name: "Video Systems"
+    level: "1-3"
+    keywords:
+      - "7th Sense Delta Media Server"
+      - "RealMotion"
+  - name: "Linux Administration"
+    level: "2-3"
+    keywords:
+      - "Docker"
+      - "Scripting"
+      - "Ubuntu/Debian Configuration"
+  - name: "Software Development"
+    level: "2-3"
+    keywords:
+      - "Golang"
+      - "Git"
+      - "CI/CD"
+      - "JavaScript"
+
+languages:
+  - language: "English"
+    fluency: "Native speaker"
+
+projects:
+  - name: Backend Programming - Lighting Control Application Server
+    description: Design and write the server implementation for a bespoke browser-based architectural lighting control system. Incorporated control of Artnet, Modbus, and Xicato XIG exposed over a REST API.
+    startDate: "2021-02-01"
+    endDate: ""
+    entity: Smart Monkeys, Inc
+    
+  - name: Show Control Programming Lead - Warner Brothers World Abu Dhabi
+    description: Coordinate team of internal and external programmers, develop and maintain programming standards and documentation, oversee hardware installation, configure and commission control systems, and interface with end client team for feedback and handover.
+    startDate: "2017-01-01"
+    endDate: "2018-10-01"
+    roles:
+      - Lead Show Control Programmer
+    entity: Smart Monkeys, Inc
+  
